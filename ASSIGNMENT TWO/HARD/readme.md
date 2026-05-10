@@ -4,7 +4,7 @@ This folder contains the **Easy** version of **Assignment Two**.
 
 ## Live Demo
 
-[View Live Website](https://profound-moonbeam-fea6b8.netlify.app/)
+[View Live Website](https://calm-crepe-317a8a.netlify.app/)
 
 ## Assignment Brief
 You have to choose any three designs from the given designs and recreate them using **CSS Flexbox** and **Position** properties.
