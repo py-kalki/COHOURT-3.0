@@ -40,7 +40,7 @@ ul {
     list-style: none;
 }
 
-/* Typography */
+
 h1, h2, h3, h4 {
     font-weight: 700;
     line-height: 1.2;
@@ -50,7 +50,7 @@ span {
     color: var(--accent);
 }
 
-/* Utilities */
+
 .btn {
     display: inline-flex;
     align-items: center;
@@ -87,7 +87,7 @@ span {
     color: var(--accent);
 }
 
-/* Navbar */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -186,7 +186,7 @@ nav {
     box-shadow: 0 0 15px rgba(0, 229, 168, 0.2);
 }
 
-/* Hero Section */
+
 .hero {
     position: relative;
     min-height: 100vh;
@@ -211,7 +211,7 @@ nav {
 
 .hero-character {
     position: absolute;
-    bottom: -15%; /* Moved further down as requested */
+    bottom: -15%; 
     left: 50%;
     transform: translateX(-35%);
     height: 100%;
@@ -221,14 +221,14 @@ nav {
 }
 
 .hero-character img {
-    height: 100%; /* Reduced from 125% to make the character smaller */
+    height: 100%; 
     width: auto;
     object-fit: contain;
     object-position: bottom;
     filter: drop-shadow(0 0 40px rgba(0,0,0,0.9));
 }
 
-/* Subtle Ring behind character */
+
 .hero-character::before {
     content: '';
     position: absolute;
@@ -330,7 +330,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     gap: 45px;
-    padding-right: 0; /* Removed padding to move it to the edge */
+    padding-right: 0;
 }
 
 .feature-item {
@@ -343,7 +343,7 @@ nav {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: 1px solid rgba(0, 229, 168, 0.5); /* Glowing boundary */
+    border: 1px solid rgba(0, 229, 168, 0.5); 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -369,7 +369,7 @@ nav {
     text-transform: uppercase;
 }
 
-/* Stats Section */
+
 .stats-section {
     padding: 0 5%;
     margin-top: -60px;
@@ -393,8 +393,8 @@ nav {
 
 .star-icon {
     position: absolute;
-    width: 180px; /* Increased from 140px */
-    height: 180px; /* Increased from 140px */
+    width: 180px; 
+    height: 180px; 
     top: 50%;
     transform: translateY(-50%);
     z-index: 11;
@@ -441,7 +441,7 @@ nav {
     background-color: var(--border-color);
 }
 
-/* Projects Section */
+
 .projects-section {
     padding: 120px 5% 80px;
 }
@@ -507,13 +507,13 @@ nav {
 
 .project-card {
     background: var(--bg-card);
-    border: 1px solid rgba(0, 229, 168, 0.3); /* Brighter initial boundary */
+    border: 1px solid rgba(0, 229, 168, 0.3); 
     border-radius: 24px;
     overflow: hidden;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     cursor: pointer;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 
-                0 0 15px rgba(0, 229, 168, 0.15); /* Stronger default glow */
+                0 0 15px rgba(0, 229, 168, 0.15); 
 }
 
 .project-card:hover {
@@ -521,7 +521,7 @@ nav {
     border-color: var(--accent);
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.7), 
                 0 0 40px var(--accent-glow),
-                0 0 20px var(--accent); /* Intense layered glow */
+                0 0 20px var(--accent); 
 }
 
 .card-img {
@@ -606,7 +606,7 @@ nav {
     background: rgba(0, 229, 168, 0.1);
 }
 
-/* How We Work Section */
+
 .how-we-work {
     padding: 60px 5%;
     text-align: center;
@@ -710,7 +710,7 @@ nav {
     line-height: 1.5;
 }
 
-/* Footer */
+
 footer {
     padding: 80px 4% 30px;
     margin-top: 50px;
@@ -914,7 +914,7 @@ footer {
     color: var(--text-main);
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 1200px) {
     .projects-grid {
         grid-template-columns: repeat(2, 1fr);
