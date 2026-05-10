@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunMall - Potato Chips</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Oswald:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Background Elements -->
+        <div class="bg-elements">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="triangle triangle-1"></div>
+            <div class="triangle triangle-2"></div>
+            <div class="dots dots-1"></div>
+            <div class="dots dots-2"></div>
+            <div class="sunburst"></div>
+        </div>
+
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/logo.png" alt="SunMall Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CHIPS</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <div class="nav-right">
+                <div class="search-cart-bar">
+                    <div class="search">
+                        <i class="fa-solid fa-search"></i>
+                        <input type="text" placeholder="Search for chips...">
+                    </div>
+                    <div class="divider"></div>
+                    <div class="cart-icon">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="badge">4</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main class="hero">
+            <div class="hero-left">
+                <div class="ingredients-badge">
+                    <i class="fa-solid fa-star"></i>
+                    <span>100% REAL INGREDIENTS</span>
+                </div>
+                <h1 class="main-heading">
+                    EAT OUR <span class="text-green">GRILLED</span><br>
+                    POTATO CHIPS
+                    <div class="squiggle">
+                        <svg width="200" height="20" viewBox="0 0 200 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 15C20.5 4.5 35 15 50 15C65 15 80 4.5 95 15C110 25.5 125 4.5 140 15C155 25.5 175 4.5 195 15" stroke="#FFB300" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                </h1>
+                <p class="subtext">
+                    Satisfying savory Chinese meat sauce chips<br>
+                    without any hard-to-find ingredients.
+                </p>
+
+                <div class="action-row">
+                    <button class="add-to-cart-btn">
+                        <div class="cart-icon-bg">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </div>
+                        <span>ADD TO CART</span>
+                    </button>
+                    <div class="quantity-selector">
+                        <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                        <span class="qty">2</span>
+                        <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                </div>
+
+                <div class="features-row">
+                    <div class="feature-item">
+                        <div class="feature-icon icon-green"><i class="fa-solid fa-leaf"></i></div>
+                        <div class="feature-text">
+                            <strong>100% NATURAL</strong>
+                            <span>No artificial flavors</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon icon-orange"><i class="fa-solid fa-fire-burner"></i></div>
+                        <div class="feature-text">
+                            <strong>OVEN GRILLED</strong>
+                            <span>Not fried</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon icon-red"><i class="fa-solid fa-heart"></i></div>
+                        <div class="feature-text">
+                            <strong>TASTY & CRUNCHY</strong>
+                            <span>Irresistible bite</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-center">
+                <div class="main-circle"></div>
+                <img src="assets/main-chips.png" alt="Main Chips Packet" class="main-chip-image">
+            </div>
+
+            <div class="hero-right">
+                <div class="flavor-timeline">
+                    <div class="timeline-line"></div>
+                    <div class="flavor-item">
+                        <div class="flavor-icon icon-bg-green"><i class="fa-solid fa-pepper-hot"></i></div>
+                        <div class="flavor-text">
+                            <strong>EXTRA CHILI</strong>
+                            <p>Zha jiang mian is crazy hot<br>even when it's simplified</p>
+                        </div>
+                    </div>
+                    <div class="flavor-item">
+                        <div class="flavor-icon icon-bg-red"><i class="fa-solid fa-drumstick-bite"></i></div>
+                        <div class="flavor-text">
+                            <strong>BEEF FLAVOUR</strong>
+                            <p>Comes with a lot extra energy<br>calories and Oxizen</p>
+                        </div>
+                    </div>
+                    <div class="flavor-item">
+                        <div class="flavor-icon icon-bg-orange"><i class="fa-solid fa-fire"></i></div>
+                        <div class="flavor-text">
+                            <strong>SMOKEY SAUCE</strong>
+                            <p>The meat sauce is kind of<br>reminiscent of a Chinese.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <section class="top-flavours-section">
+            <div class="section-left">
+                <h2>OUR TOP<br>FLAVOURS</h2>
+                <div class="squiggle-small">
+                     <svg width="50" height="5" viewBox="0 0 50 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 2.5C10 0 15 5 25 2.5C35 0 40 5 48 2.5" stroke="#FFB300" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="carousel-arrows">
+                    <button class="arrow disabled"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="arrow active"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            
+            <div class="product-cards">
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/chips1.png" alt="Black Barbecue">
+                    </div>
+                    <div class="card-details">
+                        <h3>BLACK BARBECUE</h3>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <span class="rating-num">(4.8)</span>
+                        </div>
+                        <div class="price-action">
+                            <span class="price">$12.30</span>
+                            <button class="order-btn">ORDER NOW &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/chips2.png" alt="Mr. Potato">
+                    </div>
+                    <div class="card-details">
+                        <h3>MR. POTATO</h3>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="rating-num">(4.9)</span>
+                        </div>
+                        <div class="price-action">
+                            <span class="price">$15.89</span>
+                            <button class="order-btn">ORDER NOW &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/chips3.png" alt="Tom Yomm">
+                    </div>
+                    <div class="card-details">
+                        <h3>TOM YOMM</h3>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <span class="rating-num">(4.7)</span>
+                        </div>
+                        <div class="price-action">
+                            <span class="price">$11.50</span>
+                            <button class="order-btn">ORDER NOW &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+</body>
+</html>
