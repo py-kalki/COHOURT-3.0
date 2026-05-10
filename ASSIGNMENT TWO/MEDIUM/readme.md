@@ -1,6 +1,6 @@
 # A2 - Assignment Two
 
-This folder contains the **Easy** version of **Assignment Two**.
+This folder contains the **Medium** version of **Assignment Two**.
 
 ## Live Demo
 

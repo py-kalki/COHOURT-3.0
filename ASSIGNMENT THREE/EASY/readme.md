@@ -1,10 +1,10 @@
-# A2 - Assignment Two
+# A2 - Assignment Three
 
-This folder contains the **Easy** version of **Assignment Two**.
+This folder contains the **Easy** version of **Assignment Three**.
 
 ## Live Demo
 
-[View Live Website](https://calm-crepe-317a8a.netlify.app/)
+[View Live Website](https://lighthearted-dasik-acbe8b.netlify.app/)
 
 ## Assignment Brief
 You have to choose any three designs from the given designs and recreate them using **CSS Flexbox** and **Position** properties.
