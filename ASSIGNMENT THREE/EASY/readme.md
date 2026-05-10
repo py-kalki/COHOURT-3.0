@@ -4,7 +4,7 @@ This folder contains the **Easy** version of **Assignment Three**.
 
 ## Live Demo
 
-[View Live Website](https://lighthearted-dasik-acbe8b.netlify.app/)
+[View Live Website](https://delicate-daffodil-467ede.netlify.app/)
 
 ## Assignment Brief
 You have to choose any three designs from the given designs and recreate them using **CSS Flexbox** and **Position** properties.
