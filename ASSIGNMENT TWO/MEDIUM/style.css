@@ -1,27 +1,7 @@
-/* =========================================
-   AURORA™ — 2025 WINTER DROP  |  style.css
-   ========================================= */
-
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-:root {
-  --bg:         #0b1118;
-  --bg-card:    #111820;
-  --bg-card-h:  #16202c;
-  --bg-strip:   #0d1420;
-  --bg-foot:    #080d12;
-  --border:     #1b2736;
-  --border-l:   #243040;
-  --blue:       #4a9edd;
-  --txt:        #ffffff;
-  --txt-s:      #8fa3b8;
-  --txt-m:      #50657a;
-  --price:      #c5d8eb;
-  --tag-br:     #364e63;
-}
-
 html {
-  background: var(--bg);
+  background: #0b1118;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -31,8 +11,8 @@ html {
 }
 
 body {
-  background: var(--bg);
-  color: var(--txt);
+  background: #0b1118;
+  color: #ffffff;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 14px;
   letter-spacing: .04em;
@@ -42,7 +22,7 @@ body {
 }
 
 .website-wrapper {
-  background: var(--bg);
+  background: #0b1118;
   border-radius: 24px;
   box-shadow: 0 30px 60px rgba(0,0,0,0.6);
   overflow: hidden;
@@ -56,7 +36,7 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   padding: 20px 28px 16px;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid #1b2736;
   gap: 24px;
 }
 
@@ -65,11 +45,11 @@ body {
   font-size: 11px;
   font-weight: 500;
   letter-spacing: .2em;
-  color: var(--txt-m);
+  color: #50657a;
   text-transform: uppercase;
   margin-bottom: 2px;
 }
-.bc-accent { color: var(--blue); }
+.bc-accent { color: #4a9edd; }
 
 .hero-title {
   font-family: 'Bebas Neue', sans-serif;
@@ -95,7 +75,7 @@ body {
   font-size: 12px;
   font-weight: 400;
   letter-spacing: .1em;
-  color: var(--txt-s);
+  color: #8fa3b8;
   text-transform: uppercase;
   white-space: nowrap;
 }
@@ -111,20 +91,20 @@ body {
   font-size: 12px;
   font-weight: 500;
   letter-spacing: .14em;
-  color: var(--txt-s);
+  color: #8fa3b8;
   text-transform: uppercase;
   cursor: pointer;
   transition: color .18s;
 }
-.nav-cats li:hover { color: var(--txt); }
+.nav-cats li:hover { color: #ffffff; }
 
 .filters-btn {
   display: flex;
   align-items: center;
   gap: 9px;
   background: transparent;
-  border: 1.5px solid var(--border-l);
-  color: var(--txt);
+  border: 1.5px solid #243040;
+  color: #ffffff;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 13px;
   font-weight: 600;
@@ -139,10 +119,10 @@ body {
   margin-top: 6px;
 }
 .filters-btn:hover {
-  border-color: var(--blue);
+  border-color: #4a9edd;
   background: rgba(74,158,221,.06);
 }
-.fi { width: 17px; height: 17px; color: var(--txt-s); }
+.fi { width: 17px; height: 17px; color: #8fa3b8; }
 
 /* ─────────────── GRID WRAP ─────────────── */
 .grid-wrap { padding: 9px; display: flex; flex-direction: column; gap: 9px; }
@@ -208,20 +188,15 @@ arent 60%);
   left: 0; top: 0;
   width: 66%; height: 100%;
   background:
-    /* head/helmet */
-    radial-gradient(ellipse 32% 18% at 34% 14%, rgba(210,230,248,.82) 0%, rgba(1
+  radial-gradient(ellipse 32% 18% at 34% 14%, rgba(210,230,248,.82) 0%, rgba(1
 70,200,230,.3) 55%, transparent 80%),
-    /* body/jacket */
-    radial-gradient(ellipse 45% 38% at 32% 45%, rgba(195,220,242,.72) 0%, rgba(1
+  radial-gradient(ellipse 45% 38% at 32% 45%, rgba(195,220,242,.72) 0%, rgba(1
 55,190,225,.28) 55%, transparent 78%),
-    /* lower body */
-    radial-gradient(ellipse 34% 34% at 30% 74%, rgba(175,205,232,.55) 0%, rgba(1
+  radial-gradient(ellipse 34% 34% at 30% 74%, rgba(175,205,232,.55) 0%, rgba(1
 35,175,215,.2) 55%, transparent 75%),
-    /* arm right */
-    radial-gradient(ellipse 14% 28% at 54% 42%, rgba(185,212,238,.45) 0%, transp
+  radial-gradient(ellipse 14% 28% at 54% 42%, rgba(185,212,238,.45) 0%, transp
 arent 65%),
-    /* visor shine */
-    radial-gradient(ellipse 12% 6% at 35% 11%, rgba(240,248,255,.6) 0%, transpar
+  radial-gradient(ellipse 12% 6% at 35% 11%, rgba(240,248,255,.6) 0%, transpar
 ent 70%);
   pointer-events: none;
 }
@@ -298,8 +273,8 @@ ent 70%);
 
 /* ─────────────── PRODUCT CARDS ─────────────── */
 .pcard {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
+  background: #111820;
+  border: 1px solid #1b2736;
   border-radius: 13px;
   overflow: hidden;
   display: flex;
@@ -307,7 +282,7 @@ ent 70%);
   cursor: pointer;
   transition: border-color .22s, background .22s;
 }
-.pcard:hover { border-color: var(--border-l); background: var(--bg-card-h); }
+.pcard:hover { border-color: #243040; background: #16202c; }
 
 /* image area */
 .pimg {
@@ -338,22 +313,14 @@ ent 70%);
 }
 
 /* Background colours per product */
-.bg-silver1  { background: linear-gradient(168deg, #c6d8ea 0%, #9ab4ca 45%, #789
-8b0 100%); }
-.bg-silver2  { background: linear-gradient(168deg, #b8ccd8 0%, #8aa4bc 45%, #668
-8a4 100%); }
-.bg-dark1    { background: linear-gradient(168deg, #283848 0%, #1a2a3a 45%, #101
-c28 100%); }
-.bg-grey     { background: linear-gradient(168deg, #8898a8 0%, #6a7d8e 45%, #4e6
-070 100%); }
-.bg-bluegrey { background: linear-gradient(168deg, #7898b8 0%, #5a7898 45%, #3a5
-878 100%); }
-.bg-navy     { background: linear-gradient(168deg, #182840 0%, #101c2e 45%, #090
-f1e 100%); }
-.bg-steelblue{ background: linear-gradient(168deg, #386090 0%, #284878 45%, #183
-060 100%); }
-.bg-mist     { background: linear-gradient(168deg, #c5cdd8 0%, #a4b2c0 45%, #889
-8a8 100%); }
+.bg-silver1  { background: linear-gradient(168deg, #c6d8ea 0%, #9ab4ca 45%, #7898b0 100%); }
+.bg-silver2  { background: linear-gradient(168deg, #b8ccd8 0%, #8aa4bc 45%, #6688a4 100%); }
+.bg-dark1    { background: linear-gradient(168deg, #283848 0%, #1a2a3a 45%, #101c28 100%); }
+.bg-grey     { background: linear-gradient(168deg, #8898a8 0%, #6a7d8e 45%, #4e6070 100%); }
+.bg-bluegrey { background: linear-gradient(168deg, #7898b8 0%, #5a7898 45%, #3a5878 100%); }
+.bg-navy     { background: linear-gradient(168deg, #182840 0%, #101c2e 45%, #090f1e 100%); }
+.bg-steelblue{ background: linear-gradient(168deg, #386090 0%, #284878 45%, #183060 100%); }
+.bg-mist     { background: linear-gradient(168deg, #c5cdd8 0%, #a4b2c0 45%, #8898a8 100%); }
 
 /* Figure silhouettes — gradient-painted model shapes */
 .fig {
@@ -369,30 +336,21 @@ f1e 100%); }
 /* White / reflective model */
 .fwhite {
   background:
-    radial-gradient(ellipse 44% 22% at 50% 16%, rgba(255,255,255,.88) 0%, rgba(2
-25,240,255,.45) 50%, transparent 78%),
-    radial-gradient(ellipse 40% 40% at 50% 52%, rgba(210,232,252,.75) 0%, rgba(1
-85,215,245,.35) 55%, transparent 76%),
-    radial-gradient(ellipse 32% 26% at 50% 82%, rgba(195,222,245,.55) 0%, rgba(1
-65,200,232,.25) 55%, transparent 75%);
+    radial-gradient(ellipse 44% 22% at 50% 16%, rgba(255,255,255,.88) 0%, rgba(225,240,255,.45) 50%, transparent 78%),
+    radial-gradient(ellipse 40% 40% at 50% 52%, rgba(210,232,252,.75) 0%, rgba(185,215,245,.35) 55%, transparent 76%),
+    radial-gradient(ellipse 32% 26% at 50% 82%, rgba(195,222,245,.55) 0%, rgba(165,200,232,.25) 55%, transparent 75%);
 }
 .fsilver {
   background:
-    radial-gradient(ellipse 44% 22% at 50% 16%, rgba(215,228,240,.88) 0%, rgba(1
-85,205,225,.45) 50%, transparent 78%),
-    radial-gradient(ellipse 40% 40% at 50% 52%, rgba(175,200,225,.75) 0%, rgba(1
-48,178,210,.35) 55%, transparent 76%),
-    radial-gradient(ellipse 32% 26% at 50% 82%, rgba(160,188,218,.55) 0%, rgba(1
-35,168,205,.25) 55%, transparent 75%);
+    radial-gradient(ellipse 44% 22% at 50% 16%, rgba(215,228,240,.88) 0%, rgba(185,205,225,.45) 50%, transparent 78%),
+    radial-gradient(ellipse 40% 40% at 50% 52%, rgba(175,200,225,.75) 0%, rgba(148,178,210,.35) 55%, transparent 76%),
+    radial-gradient(ellipse 32% 26% at 50% 82%, rgba(160,188,218,.55) 0%, rgba(135,168,205,.25) 55%, transparent 75%);
 }
 .fdark {
   background:
-    radial-gradient(ellipse 44% 22% at 50% 16%, rgba(55,78,100,.92) 0%, rgba(30,
-50,72,.6) 50%, transparent 78%),
-    radial-gradient(ellipse 40% 40% at 50% 52%, rgba(22,40,60,.82) 0%, rgba(12,2
-6,44,.5) 55%, transparent 76%),
-    radial-gradient(ellipse 32% 26% at 50% 82%, rgba(12,22,38,.65) 0%, rgba(6,14
-,26,.4) 55%, transparent 75%);
+    radial-gradient(ellipse 44% 22% at 50% 16%, rgba(55,78,100,.92) 0%, rgba(30,50,72,.6) 50%, transparent 78%),
+    radial-gradient(ellipse 40% 40% at 50% 52%, rgba(22,40,60,.82) 0%, rgba(12,26,44,.5) 55%, transparent 76%),
+    radial-gradient(ellipse 32% 26% at 50% 82%, rgba(12,22,38,.65) 0%, rgba(6,14,26,.4) 55%, transparent 75%);
 }
 .fglacier {
   background:
