@@ -4,7 +4,7 @@ This folder contains the **Hard** version of **Assignment THREE**.
 
 ## Live Demo
 
-[View Live Website](https://calm-crepe-317a8a.netlify.app/)
+[View Live Website](https://resilient-tapioca-2b1ac2.netlify.app/)
 
 ## Assignment Brief
 You have to choose any three designs from the given designs and recreate them using **CSS Flexbox** and **Position** properties.
