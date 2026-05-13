@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedansh Danot Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="bento-layout">
+        <div class="sidebar">
+            <span>Clients</span>
+            <span>Research</span>
+            <span>Portfolio</span>
+            <span>Podcast</span>
+        </div>
+
+        <div class="profile-card">
+            <div class="notch-cutout">
+                <i class="ri-command-fill"></i> About Me
+            </div>
+            <div class="prof-img-wrapper">
+                <div class="pink-circle"></div>
+                <div class="white-ring"></div>
+                <img src="assets/person.png" alt="guy" class="the-guy">
+            </div>
+            
+            <div class="prof-text">
+                <h1>Im,<br>Vedansh<br>Danot</h1>
+                <div class="email-line">
+                    <p>vedanshh.dev@gmail.com</p>
+                    <i class="ri-mail-line"></i>
+                </div>
+                <div class="dotted-line"></div>
+            </div>
+            
+            <div class="spin-badge">
+                <div class="center-dot"></div>
+                <div class="circ-txt"></div>
+            </div>
+        </div>
+
+        <div class="header-title">
+            <h1>Portfolio<i class="ri-arrow-right-up-line"></i></h1>
+        </div>
+        
+        <div class="flamingo-vid" style="background-image: url('https://images.unsplash.com/photo-1555169062-013468b47731?w=800&q=80');">
+            <i class="ri-arrow-right-up-line top-right-ico"></i>
+            <div class="play-btn-glass"><i class="ri-play-fill"></i></div>
+        </div>
+        
+        <div class="stat-top">
+            <i class="ri-arrow-right-up-line top-right-ico"></i>
+            <h2>251</h2>
+            <p>Projects</p>
+        </div>
+        
+        <div class="stat-bot">
+            <i class="ri-arrow-right-up-line top-right-ico"></i>
+            <h2>156</h2>
+            <p>Awards</p>
+        </div>
+        
+        <div class="dark-card">
+            <i class="ri-arrow-right-up-line top-right-ico"></i>
+            <i class="ri-apple-fill apple-ico"></i>
+            <p>Clients</p>
+        </div>
+        
+        <div class="split-card">
+            <div class="split-left">
+                <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&q=80" alt="sphere" class="sphere-img">
+            </div>
+            <div class="split-right">
+                <i class="ri-arrow-right-up-line top-right-ico"></i>
+                <h2>172</h2>
+                <p>Global Design<br>Awards.</p>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const str = "MY DESIGN PORTFOLIO 2023 • ";
+        const txtEl = document.querySelector('.circ-txt');
+        let html = '';
+        for(let i=0; i<str.length; i++) {
+            html += `<span style="transform:rotate(${i * (360/str.length)}deg); transform-origin: 0 35px; position:absolute; left: 50%; top: 5px;">${str[i]}</span>`;
+        }
+        txtEl.innerHTML = html;
+    </script>
+</body>
+</html>
